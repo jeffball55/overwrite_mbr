@@ -1,0 +1,4 @@
+These programs overwrites the beginning of sda, sdb, sdc, sdd, sde, sdf, sdg, hda, hdb, hdc, hdd, hde, hdf, and hdg (if they 
+exist).  This will probably mess up any other drives plugged in to the target computer at the time these programs are run, in 
+addition to the boot one.  This is done so that we can be absolutely sure we overwrited the boot drive.  In the future, these
+programs could be extended to include a check for a /boot/ directory on the device before overwriting it.

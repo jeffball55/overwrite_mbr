@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "overwrite_mbr", "overwrite_mbr\overwrite_mbr.vcxproj", "{1A08424C-410D-455B-807E-E9FB73B22F1E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wait_and_run", "wait_and_run\wait_and_run.vcxproj", "{235246E3-ED01-468D-8A12-A7005F1CA7A8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wait_and_overwrite_mbr", "wait_and_overwrite_mbr\wait_and_overwrite_mbr.vcxproj", "{44555961-195D-4614-B5C2-6DDC929EB426}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A08424C-410D-455B-807E-E9FB73B22F1E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1A08424C-410D-455B-807E-E9FB73B22F1E}.Debug|Win32.Build.0 = Debug|Win32
+		{1A08424C-410D-455B-807E-E9FB73B22F1E}.Release|Win32.ActiveCfg = Release|Win32
+		{1A08424C-410D-455B-807E-E9FB73B22F1E}.Release|Win32.Build.0 = Release|Win32
+		{235246E3-ED01-468D-8A12-A7005F1CA7A8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{235246E3-ED01-468D-8A12-A7005F1CA7A8}.Debug|Win32.Build.0 = Debug|Win32
+		{235246E3-ED01-468D-8A12-A7005F1CA7A8}.Release|Win32.ActiveCfg = Release|Win32
+		{235246E3-ED01-468D-8A12-A7005F1CA7A8}.Release|Win32.Build.0 = Release|Win32
+		{44555961-195D-4614-B5C2-6DDC929EB426}.Debug|Win32.ActiveCfg = Debug|Win32
+		{44555961-195D-4614-B5C2-6DDC929EB426}.Debug|Win32.Build.0 = Debug|Win32
+		{44555961-195D-4614-B5C2-6DDC929EB426}.Release|Win32.ActiveCfg = Release|Win32
+		{44555961-195D-4614-B5C2-6DDC929EB426}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

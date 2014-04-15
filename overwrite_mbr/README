@@ -1,0 +1,3 @@
+These projects will overwrite the mbr on Windows.  Obviously you need to run as Administrator or they won't work.  Additionally,
+make sure that you select the correct build options, if you don't use the included project/solution files.  If not, they will
+look for the version of .NET you built against and fail to run properly if it's not on the target machine.
